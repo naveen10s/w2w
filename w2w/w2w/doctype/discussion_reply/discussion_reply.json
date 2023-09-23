@@ -1,0 +1,54 @@
+{
+ "actions": [],
+ "autoname": "REPLY.####",
+ "creation": "2021-08-11 10:59:38.597046",
+ "doctype": "DocType",
+ "editable_grid": 1,
+ "engine": "InnoDB",
+ "field_order": [
+  "topic",
+  "reply"
+ ],
+ "fields": [
+  {
+   "fieldname": "topic",
+   "fieldtype": "Link",
+   "in_list_view": 1,
+   "in_standard_filter": 1,
+   "label": "Topic",
+   "options": "Discussion Topic"
+  },
+  {
+   "fieldname": "reply",
+   "fieldtype": "Long Text",
+   "in_list_view": 1,
+   "label": "Reply"
+  }
+ ],
+ "index_web_pages_for_search": 1,
+ "links": [],
+ "modified": "2023-09-23 07:33:48.967855",
+ "modified_by": "Administrator",
+ "module": "W2W",
+ "name": "Discussion Reply",
+ "naming_rule": "Expression (old style)",
+ "owner": "Administrator",
+ "permissions": [
+  {
+   "create": 1,
+   "delete": 1,
+   "email": 1,
+   "export": 1,
+   "print": 1,
+   "read": 1,
+   "report": 1,
+   "role": "System Manager",
+   "share": 1,
+   "write": 1
+  }
+ ],
+ "sort_field": "modified",
+ "sort_order": "DESC",
+ "states": [],
+ "track_changes": 1
+}
